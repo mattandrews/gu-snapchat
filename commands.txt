@@ -1,0 +1,6 @@
+# detect crop marks
+ffmpeg -i fgm.mp4 -vf "cropdetect=24:16:0" dummy.avi
+# then use them to crop
+ffmpeg -i fgm.mp4 -filter:v "crop=1280:240:0:240" -c:a copy cropped.mp4
+# now scale it up and crop it to correct size
+ffmpeg -i cropped.mp4 -filter:v "scale=iw*960/ih:960, crop=640:960" -c:a copy out.mp4
