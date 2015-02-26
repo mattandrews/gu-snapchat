@@ -83,3 +83,11 @@ Reveal.initialize({
     maxScale: 1
 
 });
+
+// re-start videos on scroll
+Reveal.addEventListener('slidechanged', function(event) {
+    var videos = document.querySelectorAll('video');
+    [].slice.call(videos).forEach(function(v){
+        v.play();
+    });
+});
