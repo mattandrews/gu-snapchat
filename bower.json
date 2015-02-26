@@ -1,0 +1,22 @@
+{
+  "name": "gu-snapchat",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mattandrews/gu-snapchat",
+  "authors": [
+    "Matt Andrews <matt@mattandrews.info>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "hammerjs": "~2.0.4",
+    "modernizr": "~2.8.3",
+    "zepto": "~1.1.6"
+  }
+}

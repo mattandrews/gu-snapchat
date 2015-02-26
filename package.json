@@ -1,0 +1,26 @@
+{
+  "name": "gu-snapchat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattandrews/gu-snapchat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattandrews/gu-snapchat/issues"
+  },
+  "homepage": "https://github.com/mattandrews/gu-snapchat",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-batch": "^1.0.5",
+    "gulp-concat": "^2.5.2",
+    "gulp-uglify": "^1.1.0",
+    "gulp-watch": "^4.1.1"
+  }
+}
