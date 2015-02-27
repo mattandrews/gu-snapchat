@@ -190,3 +190,13 @@ article img {
     padding-left: 7%;
     padding-right: 17%;
 }
+
+.logo {
+    position: absolute;
+    bottom: 50px;
+    width: 90px;
+    opacity: 0.2;
+    left: 0;
+    right: 0;
+    margin: 0px auto !important;
+}
