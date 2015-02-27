@@ -21,23 +21,34 @@
     max-width: none !important;
     max-height: none !important;
 }
+.full-width {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    max-width: none !important;
+    max-height: none !important;
+}
 .banner {
     z-index: 10;
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: #4D7FE4;
     opacity: 0.7;
 }
 
-.reveal .banner h1 {
+.reveal .banner h1,
+.reveal article h1 {
+    background-color: #4D7FE4;
     font-family: 'Merriweather', serif;
     font-size: 24px;
     line-height: 1.2;
-    margin: 10px 20px;
+    padding: 10px 20px;
     font-weight: 900;
 }
-.reveal .banner h2 {
+.reveal .banner h2,
+.reveal article h2 {
     font-family: 'Merriweather', serif;
     font-size: 14px;
     line-height: 1.4;
@@ -45,4 +56,45 @@
     color: #ffffff;
     padding: 20px;
     background-color: #333333;
+}
+
+
+.icon {
+    z-index: 1000;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 100px;
+    margin: 0px auto;
+    right: 0;
+    box-shadow: 0px 2px 3px #000;
+}
+
+article {
+    overflow: scroll;
+    height: 100%;
+    padding: 20px;
+}
+
+article img {
+    width: 100%;
+    max-width: none;
+    max-height: none;
+}
+
+.reveal article p,
+.reveal .caption {
+    font-family: 'Merriweather', georgia;
+    color: #333333;
+    line-height: 1.6;
+    font-size: 16px;
+    margin: 0 20px 30px 20px;
+}
+
+.reveal .caption {
+    color: #999999;
+    font-size: 10px;
+    margin: 10px 20px 20px 20px;
 }
